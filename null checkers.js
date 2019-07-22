@@ -1,23 +1,38 @@
-i =Math.floor(Math.random()*100)+ 1;
-//generate number between 1 and 100
-var m=i%2;//gets the modulus and stores the result in j
-if (k==0)//checks to see if modulus is equal to zero
-    prompt(" is even");
-else
-    prompt(" Odd");
-{
-for(count=1;count<=10;count++) {
-    let num = prompt("please enter a number now:");
-if (num>1)
-    console.log("Number is higher, make another guess");
-else if (num<1)
-    console.log("Number is Lower,try again");
-else if (num==1)
-    console.log("Great you win")
-else
-    console.log("Sorry You lose")
-}
 
+ 
+
+
+
+
+
+
+
+
+
+
+// random value generated//
+ var y = Math. floor (Math.random() * 10 +1);
+ // Counting the number of gueeses
+ // Made for correct Gueess
+ var guess = 1;
+ document.getElememntById("submit guess").onclick =function(){
+ 	// number gueessed by user
+ 	document.getElememntaryById("GuessField").value;
+ 	if (x ==y),
+ 		alert("congratulations you gueesed it right" 
+ 			+ guess + "Gueess");
+
+ }
+ else if (x > y)/* if gueesedd number id grrater than actual number*/
+ 	guess++;
+ {
+ alert("oops!! sorry,try a smaller number");
+}
+else
+{
+guess++;
+alert("oops!! sorry, try a greater number");
+}
 
 
 
@@ -38,5 +53,3 @@ else
 
 
 
-
-</body>
